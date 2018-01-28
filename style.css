@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+	
+}
+.header img{
+	display: inline-block;
+	margin-top: 10px; 
+
+}
+.header p{
+	font-family: "Times New Roman" serif;
+	display: inline-block;
+	font-variant: small-caps;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+body{
+	background-color: #eaeaea;
+	background-image: url(img/bg.png);
+	font-family: "arial" serif;
+}
+
+.container{
+	width: 980px;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	width: 980px;
+	background-color: #33cc47;
+	box-sizing: border-box;
+	margin: 0px auto;
+	padding: 25px;
+	border-top : 4px double #214cce;
+	border-bottom: 4px double #214cce;
+	background-image: url(img/bumi.png);
+	background-size: cover;
+	background-position: 0 -120px;
+}
+
+.container .menu{
+	font-family: "Times New Roman" serif;
+	font-weight: bold;
+	padding: 20px;
+
+}
+
+.menu{
+	background-color: #cecece;
+}
+.menu ul li{
+	display: inline-block;
+	margin-top: 5px; 
+	margin-right: 30px;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+.menu a:hover {
+	background-color: green;
+	color: white;
+}
+.photos{
+	height: 440px;
+	background-image: url(img/bm.jpg);
+	background-size: cover;
+	background-position: 0 -20px;
+	border-top : 4px double #214cce;
+	border-bottom: 4px double #214cce;
+
+}
+.main{
+	width: 620px;
+	box-sizing: border-box;	
+	float: left;
+}
+
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3{
+	font-weight: bold;
+}
+
+.sidebar img{
+	width: 200px;
+}
+
+.main h1{
+	padding-top: 20px;
+	padding-left: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.main h2{
+	padding-top : 25px;
+	padding-left: 25px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.footer{
+	background-color: black;
+	padding: 30px;
+
+}
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
+
+.facebook img{
+	width: 40px;
+	height: 40px;
+	border-radius: 100em;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+.instagram img{
+	width: 40px;
+	height: 40px;
+	border-radius: 100em;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+.youtube img{
+	width: 40px;
+	height: 40px;
+	border-radius: 100em;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+.clear {
+	clear: left;
+}
+
+.social {
+	width: 160px;
+	height: 50px;
+	background-color: black;
+	margin: auto;
+}
+.profile{
+	padding: 10px;
+}
+.profile h1{
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;
+
+}
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
